@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <!--Google Fonts Links-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:ital@1&family=Nunito:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Whisper&display=swap"
+    rel="stylesheet">
+
+  <!--font awesome links-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+  <title>JIT Website</title>
+
+</head>
+
+
+  <!--nav starts-->
+  <section id="topnav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/images/jitlogo.png" height="60px" width="150px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="course.html">Course</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="faculty.html">Faculty</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" class="btn btn-brand mt-2" data-bs-toggle="modal" data-bs-target="#reservationModal" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--nav ends-->
+
+  <!--Slider starts-->
+  <section id="slider">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item text-center active slider-1 vh-100">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="fw-bold text-white">WELCOME TO JIT</h6>
+                <h1 class="display-1 fw-bolder  text-white mt-3">Higher Learning and Leadership Development</h1>
+                <a href="#" class="btn btn-brand mt-2" data-bs-toggle="modal" data-bs-target="#reservationModal">Register now</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item text-center slider-2 vh-100 ">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h1 class="display-1 fw-bolder fw-light text-white">Unleash Your Potential with JIT</h1>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item text-center slider-3 vh-100 ">
+          <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div id="slidimg">
+                  <img src="/images/slider3.png" height="500px" width="600"/>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--Slider ends-->
+
+  <div class="sidebar">
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <!-- Add more social media icons as needed -->
+  </div>
+
+  <!--about section-->
+  <section id="about" class="mt-5">
+    <h1 class ="text-center fw-bold "> About JIT</h1>
+    <div class="container mt-4">
+      <div class="row align-items-stretch">
+        <div class="col-md-5">
+          <img src="/images/about.png" class="img-fluid" alt="About Image">
+        </div>
+        <div class="col-md-7 mt-5">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Why to Choose Jit
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">At JIT, we are committed to your success. Our experienced faculty and staff
+                  are dedicated to providing you with the guidance and support you need to achieve your goals. We
+                  understand the challenges that come with pursuing higher education, and we are here to help you
+                  navigate your academic journey. Let us be your guide to success.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What we Provide You!!
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h3>To achieve our mission and vision, we are guided by the following core values:</h3>
+                  <p>
+                  <ol>
+                    <li>Academic Excellence: We strive to provide a rigorous, challenging, and engaging educational
+                      experience that prepares our students for success in their chosen fields.</li>
+                    <li>Innovation: We foster a culture of innovation, creativity, and experimentation that encourages
+                      new ideas, approaches, and solutions.</li>
+                    <li>Inclusivity: We embrace diversity and inclusivity in all aspects of our community, and we are
+                      committed to creating a safe, welcoming, and respectful environment for all.</li>
+                    <li>Social Responsibility: We believe in using our knowledge, skills, and resources to make a
+                      positive impact on society, and we encourage our students to do the same.</li>
+                    <li>Environmental Sustainability: We are committed to promoting environmental sustainability and
+                      responsible stewardship of natural resources.</li>
+                  </ol>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Our Facilities
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Our Vision
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---about ends-->
+
+  <!--Tag line-->
+  <section id ="tag" class="d-flex align-items-center">
+    <div class="container-fluid custom-container">
+     
+      <h1 class="text-center mt-6 fw-bold ">Sculpture Your Intelligence</h1>
+    </div>
+    
+  </section>
+ <!--tagline ends-->
+
+  <!--campus life-->
+  <section id="gallery" class="py-5">
+    <div class="container">
+        <div class="row">
+          <h1 class="text-center fw-bold text-dark">Glance of Campus</h1>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/collegeimg4.png" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <p class="card-text text-dark fs-4 fw-bold">Attractive Campus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/1532345921phpZWM6To.png" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <p class="card-text text-dark fs-4 fw-bold">Convocation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/1532345122phpC1Au9G.png" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <p class="card-text text-dark fs-4 fw-bold">Hostel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                  <img src="/images/1532345229phpaKuACc.png" class="card-img-top" alt="Image 3">
+                  <div class="card-body">
+                      <p class="card-text text-dark fs-4 fw-bold">Room view</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-2 py-5">
+            <div class="card">
+                <img src="/images/1532346061phpcWKIGj.png" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <p class="card-text text-dark fs-4 fw-bold">Huest House</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 py-5">
+          <div class="card">
+              <img src="/images/1583926826666.jpeg" class="card-img-top" alt="Image 3">
+              <div class="card-body">
+                  <p class="card-text text-dark fs-4 fw-bold">Campus</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="/images/1658559535JM2_2314.webp" class="card-img-top" alt="Image 3">
+              <div class="card-body">
+                  <p class="card-text text-dark fs-4 fw-bold">Lecture Building</p>
+              </div>
+          </div>
+        </div>
+            <div class="col-md-3">
+              <div class="card">
+                  <img src="/images/1658559535JM2_2317.webp" class="card-img-top" alt="Image 3">
+                  <div class="card-body">
+                      <p class="card-text text-dark fs-4 fw-bold">Acedemic Block</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <img src="/images/54648_img8580797975736677.jpg" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                    <p class="card-text text-dark fs-4 fw-bold">Civil Lab</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="/images/54648_img8580797975736677.jpg" class="card-img-top" alt="Image 3">
+              <div class="card-body">
+                  <p class="card-text text-dark fs-4 fw-bold">Lab</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+            <img src="/images/ed7da1ec-49ef-47c5-9873-e7e944f0084d.jpg" class="card-img-top" alt="Image 3">
+            <div class="card-body">
+                <p class="card-text text-dark fs-4 fw-bold">Mosque</p>
+            </div>
+        </div>
+    </div>
+ 
+            
+        </div>
+    </div>
+</section>
+  <!--campus ends-->
+
+  <!--companies-->
+  <section id ="logo">
+    <div class="company-logos-container">
+      <img src="/images/logo1.png" class="company-logo" alt="Company Logo 1">
+      <img src="/images/logo2.png" class="company-logo" alt="Company Logo 2">
+      <img src="/images/logo3.png" class="company-logo" alt="Company Logo 3">
+      <img src="/images/logo4.png" class="company-logo" alt="Company Logo 4">
+      <img src="/images/logo5.png" class="company-logo" alt="Company Logo 5">
+      <!-- Add more logos as needed -->
+    </div>
+    
+  </section>
+
+  <!--companies ends-->
+
+<!--registration-->
+<section id="registration">
+  <div class="reminder">
+    <p>Get Free Counselling Now</p>
+    <h1>Registration To Grab the Opportunity</h1>
+
+  </div>
+
+  <div class="form">
+    <h3>Book a Session Now!</h3>
+
+    <input type="text" placeholder="Name" name="" id="">
+    <input type="email" placeholder="Email ID" name="" id="">
+    <input type="text" placeholder="Contact Number" name="" id="">
+
+    <div class="btn">
+      <a href="#" class="yellow">Submit Form</a>
+    </div>
+  </div>
+</section>
+
+<!--registration- ends->
+
+
+
+
+
+
+
+  <!-increment counter-->
+  <div class="counter-up mt-5 ">
+    <div class="content">
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+        <div class="counter ">80</div>
+        <div class="plus">+</div>
+        <div class="text">Working Faculties</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-building"></i></div>
+        <div class="counter">10</div>
+        <div class="plus">+</div>
+        <div class="text">Academic Blocks</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+        <div class="counter">200</div>
+        <div class="plus">+</div>
+        <div class="text">placements</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fa-brands fa-cloudflare"></i></div>
+        <div class="counter">50</div>
+        <div class="plus">+</div>
+        <div class="text">Recruiters</div>
+      </div>
+    </div>
+  </div>
+ <!--increment counter ends-->
+
+ <!-- Footer section starts from here -->
+ <footer class ="mt-3">
+  <div class="text-left">
+    <img src="/images/jitlogo.png" height="100px" width="250px">
+  </div>
+  <div class="footer-col">
+    <h3>The JIT</h3>
+    <li>Education</li>
+    <li>Innovation</li>
+    <li>Learning</li>
+    
+  </div>
+
+  <div class="footer-col">
+    <h3>Power Tools</h3>
+    <li>Companies</li>
+    <li>Internships</li>
+    <li>Placement Cell</li>
+   
+  </div>
+
+  <div class="footer-col">
+    <h3>Guides</h3>
+    <li>Students Corner</li>
+    <li> Faculty Experts</li>
+    <li>Recruiters</li>
+    <li>Marketing Service</li>
+  </div>
+
+  <div class="footer-col">
+    <h3>Newsletter</h3>
+    <p>You can trust us. we only send promo offers.</p>
+
+    <div class="subscribe">
+      <input type="email" placeholder="Your email Address">
+      <a href="#" class="blue">Register</a>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>
+      Copyright @ 2022 All rights reserved | This template is made by <a href="www.anamsheikh786@gmail.com" target="_blank">Sheikh Anam</a>
+    </p>
+    <div class="pro-links">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+  </div>
+</footer>
+<!-- Footer section ends from here -->
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1200
+      });
+    });
+  </script>
+
+<!----modal-->
+<div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="reservationModalLabel">Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <!-- Registration Form -->
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <!-- Add more form fields as needed -->
+      
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (Popper.js included) and jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Optional: Initialize Modal via JavaScript to show on page load -->
+<script>
+  var myModal = new bootstrap.Modal(document.getElementById('reservationModal'));
+  myModal.show();
+</script>
+<!--modal closed-->
+
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
